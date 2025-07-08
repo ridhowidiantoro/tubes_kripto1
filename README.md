@@ -1,4 +1,4 @@
-# 🔐 Aplikasi Form Pengaman Data Mahasiswa (AES-128 CBC secara manual  + Firebase)
+# 🔐 Aplikasi  Pengamanan Form Data Mahasiswa (AES-128 CBC secara manual  + Firebase)
 
 Aplikasi mobile berbasis Flutter untuk mengamankan data pribadi mahasiswa menggunakan metode enkripsi **AES 128-bit mode CBC** yang diimplementasikan secara manual tanpa menggunakan library eksternal.
 
