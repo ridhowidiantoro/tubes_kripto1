@@ -1,17 +1,40 @@
-# tubes_kripto
+# 🔐 Aplikasi Form Pengaman Data Mahasiswa (AES-128 CBC secara manual  + Firebase)
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter untuk mengamankan data pribadi mahasiswa menggunakan metode enkripsi **AES 128-bit mode CBC** yang diimplementasikan secara manual tanpa menggunakan library eksternal.
 
-## Getting Started
+Data yang diinputkan pengguna akan dienkripsi di sisi **frontend**, lalu dikirim ke **Firebase Firestore**. Proses dekripsi hanya dapat dilakukan **di aplikasi (local)** — data yang tersimpan di Firebase tetap terenkripsi.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🎯 Tujuan Aplikasi
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Menyediakan form input data mahasiswa yang aman
+- Menerapkan enkripsi AES CBC 128-bit manual
+- Menyimpan hasil enkripsi ke Firebase Firestore
+- Membuktikan bahwa data tetap aman saat transit dan tersimpan di server khususnya di databases
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# aes-mobile
+---
+
+## 🧰 Teknologi yang Digunakan
+
+| Komponen     | Teknologi                          |
+|--------------|------------------------------------|
+| Frontend     | Flutter (Dart)                     |
+| Backend      | Firebase Firestore (NoSQL)         |
+| Enkripsi     | AES 128-bit CBC (tanpa library)    |
+| UI Form      | Flutter `TextFormField`, `Form`    |
+
+---
+
+## 📦 Fitur Aplikasi
+- 📋 Form Login (username, dan password) ( secara default dan tidak disimpan di firebase)
+- 📋 Form input data mahasiswa (Nama, NIM, Email, dsb)
+- 🔐 Enkripsi data sebelum dikirim ke Firebase
+- ☁️ Simpan hasil enkripsi ke Firestore
+- 👀 Tampilkan data terdekripsi di aplikasi (tidak di server)
+- 🛡️ Tanpa penggunaan `encrypt`, `crypto`, atau package lain
+
+---
+
+## 📁 Struktur Folder (Contoh)
+
