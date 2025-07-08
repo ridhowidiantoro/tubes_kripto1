@@ -36,5 +36,4 @@ Data yang diinputkan pengguna akan dienkripsi di sisi **frontend**, lalu dikirim
 
 ---
 
-## 📁 Struktur Folder (Contoh)
 
